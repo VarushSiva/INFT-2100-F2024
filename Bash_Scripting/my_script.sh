@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # ACTIVITY
 # Follow the steps below and write your own bash script!
 # 1. Create a file called my_script.sh
@@ -7,7 +9,15 @@
 # 5. Change the file's permissions to be executable
 # 6. Run the file as a script! 
 
+echo "=== Activity 1 ==="
+echo -e "\nStep 1: Create a file called activity.txt"
 touch activity.txt
+
+echo -e "\nStep 2: Write the text 'Hello from the shell!' into activity.txt"
 echo "Hello from the shell!" > activity.txt
+
+echo -e "\nStep 3: Display the content of the activity.txt file"
 cat activity.txt
-chmod 777 my_script.sh
+
+# Update permissions using below command
+# git update-index --chmod=+x 'name-of-shell-script'
